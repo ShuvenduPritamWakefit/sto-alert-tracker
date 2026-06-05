@@ -2,7 +2,7 @@ name: STO Alert Tracker (Daily)
 
 on:
   schedule:
-    - cron: "51 0 * * *"      # 06:21 IST (00:51 UTC)
+    - cron: "0 4 * * *"   # 09:30 IST (04:00 UTC)
   workflow_dispatch: {}        # lets you run it manually from the Actions tab
 
 concurrency:
